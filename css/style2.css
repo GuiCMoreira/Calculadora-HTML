@@ -1,0 +1,64 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: JetBrains Mono;
+    text-align: center;
+    outline: none;
+}
+
+input[type="text"] {
+    font-family: JetBrains Mono;
+    grid-column: span 7;
+    height: 60px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #f1f1f1;
+    width: 440px;
+    font-size: 45px;
+    text-align: end;
+}
+
+input[type="button"] {
+    width: 80px;
+    height: 60px;
+    margin-right: 800px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    margin: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    background-color: #f1f1f1;
+    font-family: "JetBrains Mono";
+    font-size: 30px;
+}
+
+#bac {
+    color: #ff0000;
+}
+
+#bigual {
+    width: 200px;
+}
+
+.Guizin {
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+
+    width: 510px;
+    height: 860px;
+    margin: 0 auto;
+    margin-top: 0 auto;
+}
