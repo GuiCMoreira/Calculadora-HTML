@@ -173,6 +173,7 @@ function teclado(codigo) {
       numero(codigo);
       break;
 
+      
     case "+":
     case "-":
     case "*":
