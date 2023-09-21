@@ -23,7 +23,6 @@ let botaoporc = document.getElementById("bporc");
 
 let botaoponto = document.getElementById("bponto");
 let botaoigual = document.getElementById("bigual");
-let botaomudarsinal = document.getElementById("bmudarsinal");
 let botaoac = document.getElementById("bac");
 
 let documento = window.document;
@@ -89,8 +88,6 @@ botaoigual.addEventListener("click", igual);
 botaoponto.addEventListener("click", ponto);
 
 botaoac.addEventListener("click", ac);
-
-botaomudarsinal.addEventListener("click", mudarsinal);
 
 documento.addEventListener("keypress", function (event) {
   teclado(event.key);
@@ -159,10 +156,6 @@ function ac() {
 
 function porc() {
   mostrador.value = mostrador.value / 100;
-}
-
-function mudarsinal() {
-  mostrador.value = "-";
 }
 
 function teclado(codigo) {

@@ -1,89 +1,68 @@
-/* Estilo geral da página */
-body {
-  font-family: JetBrains Mono;
-  background-color: #9f9f9f;
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: JetBrains Mono;
+    text-align: center;
+    outline: none;
 }
 
-/* Estilo para o cabeçalho da calculadora */
-h1 {
-  font-size: 24px;
-  margin-top: 0;
-  text-align: center;
-  font-family: JetBrains Mono;
-  color: #ffffff;
-}
-
-/* Estilo para os campos de entrada de texto */
 input[type="text"] {
-  width: 235px;
-  height: 20px;
-  margin-bottom: 10px;
-  padding: 5px;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 25px;
-  font-family: JetBrains Mono;
+    font-family: JetBrains Mono;
+    grid-column: span 7;
+    height: 60px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #f1f1f1;
+    width: 440px;
+    font-size: 45px;
+    text-align: end;
 }
 
-/* Estilo para os botões */
 input[type="button"] {
-  width: 50px;
-  height: 50px;
-  margin-right: 5px;
-  font-size: 23px;
-  background-color: #313131;
-  color: #ffffff;
-  border: none;
-  border-radius: 25px;
-  margin-bottom: 10px;
-  font-family: JetBrains Mono;
+    width: 80px;
+    height: 60px;
+    margin-right: 800px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    margin: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    background-color: #f1f1f1;
+    font-family: "JetBrains Mono";
+    font-size: 30px;
 }
 
-/* Estilo para o botão "b0" */
-#b0 {
-  width: 114px;
-  border-radius: 25px;
-  font-family: JetBrains Mono;
-}
 #bac {
-  color: #000000;
-}
-#bmudarsinal {
-  color: #000000;
-}
-#bporc {
-  color: #000000;
+    color: #ff0000;
 }
 
-/* Estilo para os botões de operação (+, -, x, =) */
-#bsoma,
-#bsubt,
-#bmult,
-#bigual,
-#bdivi {
-  background-color: #f69906;
-  font-family: JetBrains Mono;
-}
-/* Estilo para os botões de operação (AC, +/-, %) */
-#bac,
-#bmudarsinal,
-#bporc {
-  background-color: #9f9f9f;
-  font-family: JetBrains Mono;
+#bigual {
+    width: 200px;
 }
 
-/* Estilo para o botão de ponto */
-#bponto {
-  font-size: 24px;
-  font-family: JetBrains Mono;
+#bac {
+    width: 200px;
 }
 
-/* Estilo para o contêiner principal */
 .Guizin {
-  margin-top: 100px;
-  margin: 0 auto;
-  width: 250px;
-  padding: 30px;
-  background-color: #000000;
-  border-radius: 10px;
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+
+    width: 510px;
+    height: 860px;
+    margin: 0 auto;
+    margin-top: 0 auto;
 }
