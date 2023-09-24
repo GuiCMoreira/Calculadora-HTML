@@ -16,7 +16,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Foi um projeto simples desenvolvido nas aulas de Programação de Scripts na FATEC Faculdade de Tecnologia de Bragança Paulista com o auxílio do professor Luciano Pelissoli.
 ###
-<img src="" alt="">
+<img src="css/Captura de tela 2023-09-24 104953.png" alt="Projeto">
 
 ## :memo: Licença
 
