@@ -13,6 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 
 ## 💻 Projeto
+https://guicmoreira.github.io/Calculadora-HTML/
 
 Foi um projeto simples desenvolvido nas aulas de Programação de Scripts na FATEC Faculdade de Tecnologia de Bragança Paulista com o auxílio do professor Luciano Pelissoli.
 ###
